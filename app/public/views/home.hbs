@@ -1,0 +1,17 @@
+{{>header}}
+    {{>logo}}
+    <form class="border bg-light p-3" method="post">
+        <div class="row m-3 container mx-auto justify-content-center align-items-center">
+        {{#if search}}
+            <p class="col-md-10 text-dark fs-4">Let's go back to add more and show the list</p>
+            <a class="btn btn-primary col-4 mt-3 mt-md-0 col-md-2" href="/">Back To Home</a>
+        {{else}}
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="do" name="do" placeholder="What are you thinking about?!" value="{{list.do}}">
+            </div>
+            <button type="submit" class="btn btn-primary col-4 mt-3 mt-md-0 col-md-2">Add To List</button>
+        {{/if}}
+        </div>
+    </form>
+    {{>section}}
+{{>footer}}
