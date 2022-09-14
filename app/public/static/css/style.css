@@ -30,9 +30,6 @@
     .width {
         width: 50%;
     }
-    .tw {
-        width: 400px;
-    }
 }
 @media (min-width: 768px) {
     .sm-center {
@@ -41,12 +38,6 @@
     .width {
         width: 100%;
     }
-    .tw {
-        width: 600px;
-    }
-}
-.tw {
-    width: 800px;
 }
 #do {
     font-size: 18px;
